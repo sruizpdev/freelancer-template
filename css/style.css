@@ -1,0 +1,23 @@
+:root{
+    --oscuro:#212121;
+}
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+    font-family: "Krub", sans-serif;
+    min-height: 100%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.site-header nav{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
